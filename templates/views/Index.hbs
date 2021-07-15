@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    {{>headerlinks}}
+    <link rel="" href="">
+    <script src="./js/readMore.js"></script>
+    <link rel="stylesheet" href="./css/readMore.css">
+    
+</head>
+
+<body>
+    
+    <!-- ----------------------------  Navigation ---------------------------------------------- -->
+
+    <nav class="nav">
+        <div class="nav-menu flex-row">
+            <div class="nav-brand">
+                <a href="/" class="text-gray">Blogosphere</a>
+            </div>
+            <div class="toggle-collapse">
+                <div class="toggle-icons">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </div>
+            <div>
+                <ul class="nav-items">
+                    <li class="nav-link">
+                        <a href="/">Home</a>
+                    </li>
+                    <li class="nav-link">
+                        <a href="#category">Category</a>
+                    </li>
+                    <li class="nav-link">
+                        <a href="/register">Register</a>
+                    </li>
+                    <li class="nav-link">
+                        <a href="/login">login</a>
+                    </li>
+                    <li class="nav-link">
+                        <a href="#aboutus">About Us</a>
+                    </li>
+                    <li class="nav-link">
+                        <a href="#posts">posts</a>
+                        {{!-- <a href="/edit">Posts</a> --}}
+                    </li>
+                    <li class="nav-link">
+                        <a href="/posts">NewPost</a>
+                    </li>
+                    <li class="nav-link">
+                        <a href="#contact">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="social text-gray">
+                <a href="facebook.com"><i class="fab fa-facebook-f"></i></a>
+                <a href="instagram.com"><i class="fab fa-instagram"></i></a>
+                <a href="twitter.com"><i class="fab fa-twitter"></i></a>
+                <a href="youtube.com"><i class="fab fa-youtube"></i></a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ------------x---------------  Navigation --------------------------x------------------- -->
+
+    <!----------------------------- Main Site Section ------------------------------>
+
+    <main>
+
+        <!------------------------ Site Title ---------------------->
+
+        <section class="site-title">
+            <div class="site-background" data-aos="fade-up" data-aos-delay="100">
+                <h3>Show and Tell</h3>
+                <h1>Amazing Place on Earth</h1>
+                <button class="btn"><a href="/" class="btn">Explore</a></button>
+            </div>
+        </section>
+
+        <!------------x----------- Site Title ----------x----------->
+
+        <!-- --------------------- Blog Carousel ----------------- -->
+
+        <section id = "posts">
+            <div class="blog">
+                <div class="container">
+                    <div class="owl-carousel owl-theme blog-post">
+                        <div class="blog-content" data-aos="fade-right" data-aos-delay="200">
+                            <img src="./assets/Blog-post/londonfashion.jpg" alt="post-1">
+                            <div class="blog-title">
+                                <h3>London Fashion week's continued the evolution</h3>
+                                <button class="btn btn-blog">Fashion</button>
+                                <span>2 minutes</span>
+                            </div>
+                        </div>
+                        <div class="blog-content" data-aos="fade-in" data-aos-delay="200">
+                            <img src="./assets/Blog-post/post-9.jpg" alt="post-1">
+                            <div class="blog-title">
+                                <h3>And Me Down By The Sea, A Day At The Beach, A Walk On The Beach</h3>
+                                <button class="btn btn-blog">seasite</button>
+                                <span>2 minutes</span>
+                            </div>
+                        </div>
+                        <div class="blog-content" data-aos="fade-in" data-aos-delay="200">
+                            <img src="./assets/Blog-post/post-2.jpg" alt="post-1">
+                            <div class="blog-title">
+                                <h3>Myths and facts proposed by experts in the IT Industry of India</h3>
+                                <button class="btn btn-blog">Technology</button>
+                                <span>3 minutes</span>
+                            </div>
+                        </div>
+                        <div class="blog-content" data-aos="fade-left" data-aos-delay="200">
+                            <img src="./assets/Blog-post/mountain.jpg" alt="post-1">
+                            <div class="blog-title">
+                                <h3>hack Mountain this time</h3>
+                                <button class="btn btn-blog">Travel</button>
+                                <span>2 minutes</span>
+                            </div>
+                        </div>
+                        <div class="blog-content" data-aos="fade-right" data-aos-delay="200">
+                            <img src="./assets/Blog-post/post-3.jpg" alt="post-1">
+                            <div class="blog-title">
+                                <h3>Wherever We Go</h3>
+                                <button class="btn btn-blog">Fashion</button>
+                                <span>2 minutes</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="owl-navigation">
+                        <span class="owl-nav-prev"><i class="fas fa-long-arrow-alt-left"></i></span>
+                        <span class="owl-nav-next"><i class="fas fa-long-arrow-alt-right"></i></span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ----------x---------- Blog Carousel --------x-------- -->
+
+        <!-- ---------------------- Site Content -------------------------->
+
+        <section class="container">
+            <div class="site-content">
+                <div class="posts">
+                    <div class="post-content" data-aos="zoom-in" data-aos-delay="200">
+                        <div class="post-image">
+                            <div>
+                                <img src="./assets/Blog-post/blog4.png" class="img" alt="blog1">
+                            </div>
+                            <div class="post-info flex-row">
+                                <span><i class="fas fa-user text-gray"></i>&nbsp;&nbsp;Admin</span>
+                                <span><i class="fas fa-calendar-alt text-gray"></i>&nbsp;&nbsp;January 14, 2021</span>
+                                <span>2 Comments</span>
+                            </div>
+                        </div>
+                        <div class="post-title">
+                            <a href="#">A FUTURE CHINESE INDIAN OCEAN FLEET?
+CHRISTOPHER COLLEY</a>
+                            <p class="text">The People’s Liberation Army Navy (PLAN) is now the largest navy in the world. This development, announced in the U.S. Department of Defense’s 2020 annual report on the Chinese military, appears to demonstrate a determined strategy in Beijing to develop a powerful blue water fleet. Both Chinese and outside naval experts speculate that the PLAN may have an Indian Ocean fleet in the near future.<span class="dots"> ...</span> <span class="moreText"> Supporting this possibility, multiple Chinese sources have started to articulate an emerging Indian Ocean strategy for the PLAN. These writings are useful to understand evolving Chinese grand strategy. Furthermore, Beijing is actively laying the groundwork for such a fleet both in terms of potential bases and logistical centers, as well as naval hardware. However, beyond its anti-piracy missions and naval presence, for political and technical reasons, the PLAN is currently unable (and possibly unwilling) to officially establish an Indian Ocean fleet that could supposedly dominate the region.</span></p>
+<button class="read-more-btn">Read More</button>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="post-content" data-aos="zoom-in" data-aos-delay="200">
+                        <div class="post-image">
+                            <div>
+                                <img src="./assets/Blog-post/education.jpg" class="img" alt="blog1">
+                            </div>
+                            <div class="post-info flex-row">
+                                <span><i class="fas fa-user text-gray"></i>&nbsp;&nbsp;Admin</span>
+                                <span><i class="fas fa-calendar-alt text-gray"></i>&nbsp;&nbsp;January 16, 2021</span>
+                                <span>7 Comments</span>
+                            </div>
+                        </div>
+                        <div class="post-title">
+                            <a href="#">New Education policy, new platforms and new techniques for teachers</a>
+                            <p class="text">Education in India is poised at an interesting inflection point. On the one hand, it is set to shed an outdated model for the new National Education Policy 2020. On the other, new digital platforms of learning and innovative techniques of teaching are propelling it to global standards to create new benchmarks.
+The quality of human capital is the touchstone of education in any country. A well-educated generation with a high literacy rate is equipped to undertake social, economic, and political roles responsibly with an overarching awareness of the global issues. Such is the vision embedded in the NEP 2020, which, when fully implemented, promises to make education holistic and a lot more rewarding.<span class="dots"> ...</span> <span class="moreText"> As we emerge from the coronavirus pandemic and embark on a new academic year, it is important to clearly understand the potential of evolution in Indian education as a result of these three forces: NEP and the accompanying new platforms and techniques of teaching and learning.</span></p>
+<button class="read-more-btn">Read More</button>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="post-content" data-aos="zoom-in" data-aos-delay="200">
+                        <div class="post-image">
+                            <div>
+                                <img src="./assets/Blog-post/feature-img1.jpg" class="img" alt="blog1">
+                            </div>
+                            <div class="post-info flex-row">
+                                <span><i class="fas fa-user text-gray"></i>&nbsp;&nbsp;Andriew</span>
+                                <span><i class="fas fa-calendar-alt text-gray"></i>&nbsp;&nbsp;March 19, 2021</span>
+                                <span>5 Comments</span>
+                            </div>
+                        </div>
+                        <div class="post-title">
+                            <a href="#">Manali trip, the most memorable trip of my life</a>
+                            <p class="text">There are many memorable moments in every man’s life. However, a few of them get indelibly etched in our memories. One of my most memorable moments is associated with a wonderful holiday at Manali. Travelling breaks the monotony of our routine. Thank God, there are so many beautiful places visiting which, we forget all the stresses and cares of our life! I got an opportunity to travel to one such place of extreme natural beauty, where peace and the pristine pastoral charm has not been affected by the modern industrial competition. During the summer vacation, I got the chance to visit Manali and the adjoining spots.<span class="dots"> ...</span> <span class="moreText"> expolore iure officia! Blanditiis sint delectus quam quae nulla.</span></p>
+<button class="read-more-btn">Read More</button>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="post-content" data-aos="zoom-in" data-aos-delay="200">
+                        <div class="post-image">
+                            <div>
+                                <img src="./assets/Blog-post/post-7.jpg" class="img" alt="blog1">
+                            </div>
+                            <div class="post-info flex-row">
+                                <span><i class="fas fa-user text-gray"></i>&nbsp;&nbsp;Admin</span>
+                                <span><i class="fas fa-calendar-alt text-gray"></i>&nbsp;&nbsp;January 21, 2021</span>
+                                <span>12 Comments</span>
+                            </div>
+                        </div>
+                        <div class="post-title">
+                            <a href="#">New data recording system to better analyse road accidents</a>
+                            <p class="text">Road accidents have become very common nowadays. ... You pick up a newspaper and you will find at least one or two news about road accidents daily. They cause loss of life as well as material. People need to be more careful when on the road, no matter which mode of transport you are from<span class="dots"> ...</span> <span class="moreText"> assumenda sapiente expedita labore atque! Sint velit cumque minus pariatur quisquam, beatae ab quo impedit eaque soluta vel laboriosam itaque similique iste ex aut in nihil dolorem consequuntur possimus eligendi eos optio ipsam! Sint ullam voluptate obcaecati asperiores eos vero sed iusto magnam ad, vel repellat quidem? Omnis fugit accusantium, illo quos eos odio consectetur et nemo excepturi deleniti dolorum adipisci dolores delectus possimus libero, sed iusto dolorem? Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis neque distinctio modi dicta ut impedit, vel dolore dolores maiores quis vitae nesciunt ab aut, praesentium facilis necessitatibus odio exercitationem velit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, error fugit repellat laborum aspernatur neque eligendi officia eius quidem voluptates fugiat numquam, officiis ullam nemo, incidunt delectus. Consequuntur id veritatis odit, aspernatur libero recusandae doloremque necessitatibus aperiam esse eaque consectetur tempore qui quasi, corporis expedita excepturi natus reprehenderit illo temporibus. Veniam eius dolorem cumque! Iusto eum aut et ipsam nemo cum totam delectus explicabo? Quis odio perferendis aliquid facilis ea quaerat vero minima dolorem cumque, est ab! Vero fuga tenetur unde. Perferendis alias, fugit debitis culpa doloremque aperiam molestiae quos incidunt dolore iure officia! Blanditiis sint delectus quam quae nulla.</span></p>
+<button class="read-more-btn">Read More</button>
+                        </div>
+                    </div>
+                    <div class="pagination flex-row">
+                        <a href="#"><i class="fas fa-chevron-left"></i></a>
+                        <a href="#" class="pages">1</a>
+                        <a href="#" class="pages">2</a>
+                        <a href="#" class="pages">3</a>
+                        <a href="#"><i class="fas fa-chevron-right"></i></a>
+                    </div>
+                </div>
+                <aside class="sidebar">
+                    <div class="category">
+                        <h2 id = "category">Category</h2>
+                        <ul class="category-list">
+                            <li class="list-items" data-aos="fade-left" data-aos-delay="100">
+                                <a href="#">Software</a>
+                                <span>(05)</span>
+                            </li>
+                            <li class="list-items" data-aos="fade-left" data-aos-delay="200">
+                                <a href="#">Techonlogy</a>
+                                <span>(02)</span>
+                            </li>
+                            <li class="list-items" data-aos="fade-left" data-aos-delay="300">
+                                <a href="#">Lifestyle</a>
+                                <span>(07)</span>
+                            </li>
+                            <li class="list-items" data-aos="fade-left" data-aos-delay="400">
+                                <a href="#">Shopping</a>
+                                <span>(01)</span>
+                            </li>
+                            <li class="list-items" data-aos="fade-left" data-aos-delay="500">
+                                <a href="#">Food</a>
+                                <span>(08)</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="popular-post">
+                        <h2>Popular Post</h2>
+                        <div class="post-content" data-aos="flip-up" data-aos-delay="200">
+                            <div class="post-image">
+                                <div>
+                                    <img src="./assets/popular-post/m-blog-1.jpg" class="img" alt="blog1">
+                                </div>
+                                <div class="post-info flex-row">
+                                    <span><i class="fas fa-calendar-alt text-gray"></i>&nbsp;&nbsp;January 14,
+                                        2021</span>
+                                    <span>2 Comments</span>
+                                </div>
+                            </div>
+                            <div class="post-title">
+                                <a href="#">10 Evidence-Based Health Benefits of Black Tea</a>
+                            </div>
+                        </div>
+                        <div class="post-content" data-aos="flip-up" data-aos-delay="300">
+                            <div class="post-image">
+                                <div>
+                                    <img src="./assets/popular-post/m-blog-2.jpg" class="img" alt="blog1">
+                                </div>
+                                <div class="post-info flex-row">
+                                    <span><i class="fas fa-calendar-alt text-gray"></i>&nbsp;&nbsp;January 14,
+                                        2021</span>
+                                    <span>2 Comments</span>
+                                </div>
+                            </div>
+                            <div class="post-title">
+                                <a href="#">How Google Earth led a team of scientists to discover an untouched mountaintop rainforest</a>
+                            </div>
+                        </div>
+                        <div class="post-content" data-aos="flip-up" data-aos-delay="400">
+                            <div class="post-image">
+                                <div>
+                                    <img src="./assets/popular-post/m-blog-3.jpg" class="img" alt="blog1">
+                                </div>
+                                <div class="post-info flex-row">
+                                    <span><i class="fas fa-calendar-alt text-gray"></i>&nbsp;&nbsp;January 14,
+                                        2021</span>
+                                    <span>2 Comments</span>
+                                </div>
+                            </div>
+                            <div class="post-title">
+                                <a href="#">The True Love Story When a Wife Becomes a Husband</a>
+                            </div>
+                        </div>
+                        <div class="post-content" data-aos="flip-up" data-aos-delay="500">
+                            <div class="post-image">
+                                <div>
+                                    <img src="./assets/popular-post/m-blog-4.jpg" class="img" alt="blog1">
+                                </div>
+                                <div class="post-info flex-row">
+                                    <span><i class="fas fa-calendar-alt text-gray"></i>&nbsp;&nbsp;January 14,
+                                        2021</span>
+                                    <span>2 Comments</span>
+                                </div>
+                            </div>
+                            <div class="post-title">
+                                <a href="#">Govt allows certain categories of foreigners to enter India amidst covid</a>
+                            </div>
+                        </div>
+                        <div class="post-content" data-aos="flip-up" data-aos-delay="600">
+                            <div class="post-image">
+                                <div>
+                                    <img src="./assets/popular-post/m-blog-5.jpg" class="img" alt="blog1">
+                                </div>
+                                <div class="post-info flex-row">
+                                    <span><i class="fas fa-calendar-alt text-gray"></i>&nbsp;&nbsp;January 14,
+                                        2021</span>
+                                    <span>2 Comments</span>
+                                </div>
+                            </div>
+                            <div class="post-title">
+                                <a href="#">Development of industrial era in world</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="popular-tags">
+                        <h2>Popular Tags</h2>
+                        <div class="tags flex-row">
+                            <span class="tag" data-aos="flip-up" data-aos-delay="100">Software</span>
+                            <span class="tag" data-aos="flip-up" data-aos-delay="200">technology</span>
+                            <span class="tag" data-aos="flip-up" data-aos-delay="300">travel</span>
+                            <span class="tag" data-aos="flip-up" data-aos-delay="400">illustration</span>
+                            <span class="tag" data-aos="flip-up" data-aos-delay="500">design</span>
+                            <span class="tag" data-aos="flip-up" data-aos-delay="600">lifestyle</span>
+                            <span class="tag" data-aos="flip-up" data-aos-delay="700">love</span>
+                            <span class="tag" data-aos="flip-up" data-aos-delay="800">project</span>
+                        </div>
+                    </div>
+                </aside>
+            </div>
+        </section>
+
+        <!-- -----------x---------- Site Content -------------x------------>
+
+    </main>
+
+    <!---------------x------------- Main Site Section ---------------x-------------->
+
+
+    <!-- --------------------------- Footer ---------------------------------------- -->
+
+    <footer class="footer">
+        <div class="container">
+            <div class="about-us" data-aos="fade-right" data-aos-delay="200">
+                <h2 id="aboutus">About us</h2>
+                <p>The best ideas can change who we are. Medium is where those ideas take shape, take off, and spark powerful conversations. We’re an open platform where 170 million readers come to find insightful and dynamic thinking. Here, expert and undiscovered voices alike dive into the heart of any topic and bring new ideas to the surface. Our purpose is to spread these ideas and deepen understanding of the world.
+</p>
+            </div>
+            <div class="follow" data-aos="fade-left" data-aos-delay="200">
+                <h2>Follow us</h2>
+                <p id = "contact">Every idea needs a medium | Let us be with you at every step.</p>
+                <div>
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-youtube"></i>
+                </div>
+            </div>
+        </div>
+        <div class="rights flex-row">
+            <h4 class="text-gray">
+                <h4>@2020 Madhu patel</h4>
+            </h4>
+        </div>
+        <div class="move-up">
+            <span><i class="fas fa-arrow-circle-up fa-2x"></i></span>
+        </div>
+    </footer>
+
+    <!-- -------------x------------- Footer --------------------x------------------- -->
+
+    <!-- Jquery Library file -->
+    <script src="./js/Jquery3.4.1.min.js"></script>
+
+    <!-- --------- Owl-Carousel js ------------------->
+    <script src="./js/owl.carousel.min.js"></script>
+
+    <!-- ------------ AOS js Library  ------------------------- -->
+    <script src="./js/aos.js"></script>
+
+    <!-- Custom Javascript file -->
+    <script src="./js/main.js"></script>
+        <script src="./js/readMore.js"></script>
+</body>
+
+</html>

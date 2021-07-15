@@ -1,0 +1,47 @@
+body{
+    background: url('../assets/backgroundimg2.jpg');
+    background-size: cover;
+    height: 110vh;
+    display: flex;
+    justify-content: center;
+}
+.button{
+  background-color: #A2DBFA;
+}
+.header{
+  margin-top: 30px;
+  align-items: center;
+  /* border: 1px solid black; */
+  display: flex;
+  justify-content: center;
+  /* height: 250px;
+  width: 250px; */
+}
+.formclass{
+  position: relative;
+  align-items: center;
+  justify-content: center;
+}
+.gradient-custom-3 {
+    /* fallback for old browsers */
+    background: #84fab0;
+    align-items: center;
+    justify-content: center;
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to right,#F7DBF0, rgba(143, 211, 244, 0.5));
+  
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right,#F7DBF0, rgba(143, 211, 244, 0.5))
+  }
+  .gradient-custom-4 {
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    /* fallback for old browsers */
+    background: #84fab0;
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to right, rgba(132, 250, 176, 1), rgba(143, 211, 244, 1));
+  
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right, rgba(132, 250, 176, 1), rgba(143, 211, 244, 1))
+  }
